@@ -73,4 +73,10 @@ use_collision = true
 
 [node name="Player" parent="." instance=ExtResource("5_tbgi4")]
 
+[node name="2H_Crossbow" parent="Player/Visuals/Rogue/Rig/Skeleton3D" index="0"]
+transform = Transform3D(0.988701, -0.149894, -8.93085e-08, -1.19665e-06, -9.64775e-07, -0.999999, 0.149894, 0.988701, -1.51196e-06, -0.489505, 0.745658, 0.0963392)
+
+[node name="Rogue_Cape" parent="Player/Visuals/Rogue/Rig/Skeleton3D" index="1"]
+transform = Transform3D(0.996275, -5.14962e-09, 0.0862354, 5.13044e-09, 1, 4.44078e-10, -0.0862354, 1.46374e-15, 0.996275, -4.17228e-09, 1.20228, 1.18859e-15)
+
 [editable path="Player"]
